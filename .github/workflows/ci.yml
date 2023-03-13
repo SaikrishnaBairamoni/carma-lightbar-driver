@@ -1,11 +1,7 @@
 name: "CI: carma-streets-bridge"
 
 on:
-  pull_request:
   push:
-    branches-ignore:
-      - "develop"
-
 jobs:
   docker:
     runs-on: ubuntu-latest
